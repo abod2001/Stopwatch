@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif ;    
+}
+a{
+    text-decoration: none;
+}
+/* ------------------------------------------------- */ 
+
+.main {
+    background: #F97370;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+.main .txt {
+    color: #fff;
+    padding: 50px 0;
+}
+.main .txt .logo {
+    margin-bottom: 50px;
+}
+.main .txt h1 {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 60px;
+}
+.main .txt h5 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.main .txt p{
+    color: white;
+    word-spacing: 3px;
+}
+.main .btn-danger{
+    background-color: #F97370;
+    border-color: white;
+    color: white;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border-style: solid;
+  border-width: medium;
+
+}
+.main .btn-danger:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+/*
+.Home .txt .copyright {
+    float: left;
+    position: absolute;
+    bottom: 20px;
+}*/
+
+
+.main .Image img{
+    width: 90%;
+}
+.main ul{
+    margin: 40px 0;
+    justify-content: center;
+    
+}
+.main ul li a{
+    color: white;
+    margin: 23px 10px;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main ul li a:after ,ul li a.active:after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #ffffff ;
+    transition: width 0.5s;
+    text-decoration: none;
+}
+.main ul li a.active:after{
+    width: 100%;
+    text-decoration: none;
+}
+
+.main ul li a:after{
+    width: 0;
+    text-decoration: none;
+}
+
+.main ul li a:hover:after{
+    width: 100%;
+    text-decoration: none;
+}
+footer .copyright a{
+    color: #F97370;
+}
+
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.footer .copyright{
+    right: 0;
+    bottom: 0;
+    justify-content: right;
+}
+
+.scroll-down {
+    right: 0;
+    margin-top: 50px;
+  position: absolute;
+border-radius: 36px;
+border: 2px solid lightgrey;
+display: flex;
+justify-content: center;
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+width: 46px;
+height: 46px;
+z-index: 1;
+cursor: pointer;
+-webkit-transition: all 0.5s ease-in-out 0s;
+-moz-transition: all 0.5s ease-in-out 0s;
+transition: all 0.5s ease-in-out 0s;
+}
+.scroll-down:hover {
+border-top-color: #ffffff;
+border-right-color: #ffffff;
+border-bottom-color: #ffffff;
+border-left-color: #ffffff;
+-webkit-transition: border-top-color linear 0.15s,
+  border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s,
+  border-left-color 0.15s linear 0.3s;
+transition: border-top-color linear 0.15s,
+  border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s,
+  border-left-color 0.15s linear 0.3s;
+  box-shadow: 1px 1px 8px #fff;
+}
+

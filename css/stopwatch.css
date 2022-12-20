@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------------------------------------- */ 
+
+.main {
+    background: white;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+.main .txt {
+    color: black;
+    padding: 50px 0;
+}
+.main .txt .logo {
+    margin-bottom: 80px;
+}
+.main .txt h1 {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+.main .table {
+    margin-top: 45px;
+    width: 50%;
+    margin-bottom: 1rem;
+    color: #212529;
+    text-align: center;
+    margin-left: 85px;
+}
+#reset,#set{
+    background-color: #282B45;
+    border-color: #282B45;
+}
+#start{
+    background-color: #4BA2F4;
+    border-color: #4BA2F4;
+}
+.main .Image img{
+    width: 90%;
+}
+.main ul{
+    margin: 40px 0;
+    justify-content: center;
+    
+}
+.main ul li a{
+    color:black;
+    margin: 23px 10px;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.main ul li a:after ,ul li a.active:after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #F97370 ;
+    transition: width 0.5s;
+    text-decoration: none;
+}
+.main ul li a.active:after{
+    width: 100%;
+    text-decoration: none;
+}
+
+.main ul li a:after{
+    width: 0;
+    text-decoration: none;
+}
+
+.main ul li a:hover:after{
+    width: 100%;
+    text-decoration: none;
+}
+footer .container {
+    max-width: 960px;
+    padding-top: 40px;
+}
+footer table tr td{
+    color: #ffffff;
+}
+footer .copyright{
+    right: 0;
+    bottom: 0;
+    justify-content: right;
+    color: #ffffff;
+}
+footer .copyright a{
+    color: black;
+}
+footer{
+    background: #F97370;
+    padding-bottom: 30px;
+}
+#MyModal input{
+    width: 70px;
+    text-align: center;
+}
+#MyModal .form-row {
+    margin-left: 50px;
+}
+#MyModal label{
+    text-align: center;
+}
+.scroll-down {
+    bottom: 4vh;
+  position: absolute;
+border-radius: 36px;
+border: 2px solid lightgrey;
+display: flex;
+justify-content: center;
+-webkit-box-align: center;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+width: 46px;
+height: 46px;
+z-index: 1;
+cursor: pointer;
+-webkit-transition: all 0.5s ease-in-out 0s;
+-moz-transition: all 0.5s ease-in-out 0s;
+transition: all 0.5s ease-in-out 0s;
+}
+.scroll-down:hover {
+border-top-color: #F97370;
+border-right-color: #F97370;
+border-bottom-color: #F97370;
+border-left-color: #F97370;
+-webkit-transition: border-top-color linear 0.15s,
+  border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s,
+  border-left-color 0.15s linear 0.3s;
+transition: border-top-color linear 0.15s,
+  border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s,
+  border-left-color 0.15s linear 0.3s;
+  box-shadow: 1px 1px 8px #888888;
+}
